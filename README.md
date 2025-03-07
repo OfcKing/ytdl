@@ -1,6 +1,6 @@
 # ytdl
 
-ytdl es una herramienta poderosa para descargar videos de YouTube. Este proyecto está basado en node.js y utiliza métodos eficientes para obtener contenido multimedia desde la plataforma de YouTube.
+ytdl es una herramienta poderosa para descargar videos y audios de YouTube. Este proyecto está basado en node.js y utiliza métodos eficientes para obtener contenido multimedia desde la plataforma de YouTube.
 
 ## Características
 
@@ -25,6 +25,13 @@ Sigue estos pasos para instalar y configurar `ytdl`:
     ```sh
     npm install
     ```
+   
+También puedes agregar `ytdl` directamente en tu `package.json`:
+```json
+"dependencies": {
+    "ytdl": "github:OfcKing/ytdl"
+}
+```
 
 ## Uso
 
