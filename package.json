@@ -9,6 +9,8 @@
   "author": "Alex-X",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "fs": "0.0.1",
+    "child_process": "1.0.2"
   }
 }
