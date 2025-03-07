@@ -71,15 +71,10 @@ Aquí tienes un ejemplo de respuesta JSON que puedes esperar al usar `ytdl`:
   "creator": "Alex-X",
   "code": 200,
   "result": {
-    "title": "Ejemplo de Título de Video",
-    "type": "audio",
-    "format": "mp3/mp4",
-    "thumbnail": "https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg",
-    "dl_url": "url",
-    "id": "VIDEO_ID",
-    "duration": "120",
-    "quality": "mp3",
-    "downloaded": false
+    "title": "Young Cister - miau (Video Oficial)",
+    "thumbnail": "https://img.youtube.com/vi/A3WAPhe5JV8/hqdefault.jpg",
+    "id": "A3WAPhe5JV8",
+    "format": "<Buffer 49 44 33 03 00 00 00 01 59 39 54 49 54 32 00 00 00 49 00 00 01 ff fe 59 00 6f 00 75 00 6e 00 67 00 20 00 43 00 69 00 73 00 74 00 65 00 72 00 20 00 2d ... 3218492 more bytes>"
   }
 }
 ```
