@@ -61,6 +61,29 @@ Ejemplo:
 node ytdl.js -f mp4 -r 720p https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
+## Ejemplo de Respuesta
+
+Aquí tienes un ejemplo de respuesta JSON que puedes esperar al usar `ytdl`:
+
+```json
+{
+  "status": true,
+  "creator": "Alex-X",
+  "code": 200,
+  "result": {
+    "title": "Ejemplo de Título de Video",
+    "type": "audio",
+    "format": "mp3/mp4",
+    "thumbnail": "https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg",
+    "dl_url": "url",
+    "id": "VIDEO_ID",
+    "duration": "120",
+    "quality": "mp3",
+    "downloaded": false
+  }
+}
+```
+
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
