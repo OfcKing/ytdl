@@ -1,0 +1,14 @@
+{
+  "name": "ytdl",
+  "version": "1.0.5",
+  "description": "download videos and audios for youtube",
+  "main": "ytdl.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Alex-X",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
